@@ -10,8 +10,6 @@ let ready=false;
 let imagesLoaded=0;
 let totalImages=0;
 let count=5;
-const apiKey='WcBrqYWHYfkVrGSIfDp0p2dVo1CZt1kMYbIZlc_Rxs8';
-const apiUrl=`https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}&content_filter=high`;
 
 const setAttributes=(element,attributes)=>{
     for(const attribute in attributes){
