@@ -14,10 +14,7 @@ let ready=false;
 let imagesLoaded=0;
 let totalImages=0;
 let count=5;
-<<<<<<< HEAD
 let currentImage=0;
-=======
->>>>>>> 7fec91ac36c970d84f381295e3c6e8babf5c92e2
 
 closeButton.addEventListener('click',()=>{
     lightBox.hidden=true;
