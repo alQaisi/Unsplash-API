@@ -48,7 +48,8 @@ h1{
 } 
 .lightBox img{
   width: 70%;
-  height: auto;
+  height:auto;
+  max-width: 615px;
   position: fixed;
   bottom:50%;
   right:50%;
