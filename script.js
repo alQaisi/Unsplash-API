@@ -19,6 +19,10 @@ let currentImage=0;
 closeButton.addEventListener('click',()=>{
     lightBox.hidden=true;
 })
+lightBox.addEventListener("click",function(event){
+    if(this===event.target)
+        lightBox.hidden=true;
+})
 const changeLightBoxImage=direction=>{
     switch(direction){
         case 'next':
