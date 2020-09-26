@@ -74,6 +74,7 @@ button{
   cursor: pointer;
 }
 #close{
+  z-index:1000;
   position: fixed;
   top:10px;
   left:10px;
